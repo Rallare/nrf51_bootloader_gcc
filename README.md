@@ -1,15 +1,16 @@
-nrf51-uart-bitbanged
+nrf51-bootloader_gcc
 ==================
-
+x
 This project is a arm-none-eabi-gcc port of the DFU bootloader delivered in Nordic's nRF51 SDK
 
 KNOWN LIMITATIONS:
-- not tested very well
+- limited testing
 
 Requirements
 ------------
 - nRF51 SDK version 6 or newer
 - nRF51822 Development kit or Evaluation kit
+- arm-none-eabi-gcc, tested with version 4.7.3.
 
 The project may need modifications to work with later versions or other boards. 
 
